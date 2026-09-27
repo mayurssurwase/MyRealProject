@@ -22,7 +22,8 @@ const config = defineConfig({
 
     browserName: 'chromium',
 
-    headless: false,
+    //headless: false,
+    headless: process.env.CI === 'true',
 
     screenshot: 'on',
 

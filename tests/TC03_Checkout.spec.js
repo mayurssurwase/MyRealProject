@@ -11,7 +11,7 @@ import data from '../test-data/TC03_Checkout.json';
 const username = process.env.USERNAME2
 const password = process.env.PASSWORD2
 
-test("TC01_Checkout and generate the orderID", async ({page})=>{
+test("@regression TC01_Checkout and generate the orderID", async ({page})=>{
 
 const loginpage = new LoginPage(page)
 await loginpage.navigateTopage()

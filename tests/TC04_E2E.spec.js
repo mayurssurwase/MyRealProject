@@ -12,7 +12,7 @@ import data from '../test-data/TC04_E2E.spec.json';
 const username = process.env.USERNAME1
 const password = process.env.PASSWORD1
 
-test("TC04_E2E_Verify OrderID on Order History Page", async ({page})=>{
+test("@regression TC04_E2E_Verify OrderID on Order History Page", async ({page})=>{
 
 const loginpage = new LoginPage(page)
 await loginpage.navigateTopage()

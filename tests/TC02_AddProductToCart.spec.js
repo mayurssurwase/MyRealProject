@@ -7,6 +7,7 @@ import data from '../test-data/TC02_AddProductToCart.json';
 const username = process.env.USERNAME2
 const password = process.env.PASSWORD2
 
+//Second TC updated
 test("@smokeTC02_Add Product to cart", async ({page})=>{
 
 const loginpage = new LoginPage(page)

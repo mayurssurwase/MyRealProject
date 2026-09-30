@@ -4,7 +4,7 @@ import { LoginPage } from '../POM/LoginPage';
 const username = process.env.USERNAME1
 const password = process.env.PASSWORD1
 
-// Updated by me
+//updated by me for review
 
 test("@smoke TC01_Login", async ({page})=>{
 

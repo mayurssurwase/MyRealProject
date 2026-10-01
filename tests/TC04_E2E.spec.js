@@ -8,7 +8,7 @@ import {OrderHistoryPage} from '../POM/OrderHistoryPage'
 import data from '../test-data/TC04_E2E.spec.json';
 
 
-//TC04
+//Sending for review : TC04
 const username = process.env.USERNAME1
 const password = process.env.PASSWORD1
 

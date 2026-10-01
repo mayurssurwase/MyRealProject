@@ -7,7 +7,7 @@ import {OrderPlacedPage} from '../POM/OrderPlacedPage';
 import data from '../test-data/TC03_Checkout.json';
 
 
-//Sending for review : TC03
+
 const username = process.env.USERNAME2
 const password = process.env.PASSWORD2
 

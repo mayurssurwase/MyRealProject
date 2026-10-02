@@ -10,7 +10,7 @@ import data from '../test-data/TC03_Checkout.json';
 
 const username = process.env.USERNAME2
 const password = process.env.PASSWORD2
-
+//Adding comment for PR
 test("@regression TC01_Checkout and generate the orderID", async ({page})=>{
 
 const loginpage = new LoginPage(page)

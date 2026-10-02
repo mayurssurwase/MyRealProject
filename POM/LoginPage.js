@@ -9,7 +9,6 @@ constructor(page){
     this.loginButton = page.locator("#login")
     this.signOutButton = page.getByRole('button', { name: 'Sign Out' });
     
-
 }
 
 async navigateTopage(){
@@ -23,8 +22,6 @@ async validLogin(userName, password){
    await this.userName.fill(userName)
    await this.password.fill(password)
    await this.loginButton.click()
-
-
 }
 
 }

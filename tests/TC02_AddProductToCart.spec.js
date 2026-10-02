@@ -8,7 +8,7 @@ const username = process.env.USERNAME2
 const password = process.env.PASSWORD2
 
 //TC02 sent for review
-test("@smokeTC02_Add Product to cart", async ({page})=>{
+test("@smoke TC02_Add Product to cart", async ({page})=>{
 
 const loginpage = new LoginPage(page)
 await loginpage.navigateTopage()

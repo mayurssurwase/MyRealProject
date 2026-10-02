@@ -6,7 +6,7 @@ const password = process.env.PASSWORD1
 
 //TC01 sent for Review
 
-test("@smoke TC01_Login", async ({page})=>{
+test("@smoke TC10_Login", async ({page})=>{
 
 const loginpage = new LoginPage(page)
 await loginpage.navigateTopage()
